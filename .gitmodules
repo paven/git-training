@@ -1,6 +1,0 @@
-[submodule "lib/jmpress.js"]
-	path = lib/jmpress.js
-	url = git@github.com:paven/jmpress.js.git
-[submodule "lib/jquery"]
-	path = lib/jquery
-	url = git@github.com:paven/jquery.git
