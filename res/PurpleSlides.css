@@ -1,0 +1,73 @@
+@import url(fonts/Open_Sans/OpenSans.css);
+@import url(fonts/Inconsolata/Inconsolata.css);
+@import url(fonts/Oswald/Oswald.css);
+/*@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Inconsolata);*/
+
+body { font-family: 'Open Sans', sans-serif;
+	font-weight: 300}
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+h1 {
+	font-size: medium;
+}
+
+
+.remark-slide-content:after {
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	height: 40px;
+	width: 120px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../res/purple-logo.png);
+}
+
+.remark-slide-content {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 6em;
+	border-bottom: 18px solid 	#503574;
+	margin: 0:px
+	font-size: 24px;
+	bottom: 0px;
+}
+
+.remark-slide-content img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.imageMax img{
+	max-height: 500px;
+}
+
+td {
+	padding: 1em;
+	padding-right: 1em;
+	border: #503574 thin solid;
+	text-align: center;
+}
+.remark-code, .remark-inline-code {
+	font-family: "Inconsolata",monospace;
+}
+
+.remark-slide-number {
+	float:right;
+	position: absolute;
+	z-index: 10;
+	top: 7px;
+}
+
+.fotnote {
+	bottom: 20px;
+	align-self: flex-end;
+	vertical-align: text-top;
+	position: absolute;
+	font-size: 12px ;
+}

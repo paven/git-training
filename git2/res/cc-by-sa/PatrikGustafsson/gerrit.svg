@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="32cm" viewBox="439 419 442 623" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="440" y="420" width="100" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="420" width="100" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="442.9">
+      <tspan x="490" y="442.9">Local</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="420" width="248.325" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="420" width="248.325" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="664.162" y="442.9">
+      <tspan x="664.162" y="442.9">Gerrit</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="780" y="420" width="100" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780" y="420" width="100" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="830" y="442.9">
+      <tspan x="830" y="442.9">Testserver</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="460" width="122" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="460" width="122" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="601" y="482.9">
+      <tspan x="601" y="482.9">review</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="660" y="460" width="120" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="660" y="460" width="120" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="482.9">
+      <tspan x="720" y="482.9">master</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="480" y1="460" x2="480" y2="1040"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="601" y1="498" x2="600" y2="1040"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="720" y1="498" x2="720" y2="1040"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="840" y1="500" x2="840" y2="1040"/>
+  <g>
+    <rect style="fill: #ffffff" x="440" y="460" width="100" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="460" width="100" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="482.9">
+      <tspan x="490" y="482.9">repository</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="720" y1="520" x2="489.702" y2="539.191"/>
+    <polygon style="fill: #000000" points="482.228,539.814 491.779,534.001 489.702,539.191 492.609,543.967 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.228,539.814 491.779,534.001 489.702,539.191 492.609,543.967 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="848.487" y="481.2">
+    <tspan x="848.487" y="481.2"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="780" y="460" width="100" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780" y="460" width="100" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="830" y="482.9">
+      <tspan x="830" y="482.9">testing</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="480" y1="600" x2="598.359" y2="616.644"/>
+    <polygon style="fill: #000000" points="605.786,617.689 595.187,621.247 598.359,616.644 596.579,611.345 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="605.786,617.689 595.187,621.247 598.359,616.644 596.579,611.345 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="600">
+    <tspan x="560" y="600">push</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="608" y1="618" x2="830.307" y2="639.081"/>
+    <polygon style="fill: #000000" points="837.774,639.789 827.347,643.823 830.307,639.081 828.291,633.867 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="837.774,639.789 827.347,643.823 830.307,639.081 828.291,633.867 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="840" y1="720" x2="604.457" y2="739.629"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="611.779,734.001 602.228,739.814 612.609,743.967 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" d="M 601,690 A 23.6151,23.6151 0 1 0 601.999,674.459"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="598.367,665.65 601.139,676.481 608.141,667.764 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="720">
+    <tspan x="660" y="720">validate</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="536" y="527">
+    <tspan x="536" y="527"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="520">
+    <tspan x="520" y="520">clone</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="660">
+    <tspan x="640" y="660">review</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="600" y1="780" x2="710.764" y2="816.921"/>
+    <polygon style="fill: #000000" points="717.879,819.293 706.811,820.874 710.764,816.921 709.973,811.387 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="717.879,819.293 706.811,820.874 710.764,816.921 709.973,811.387 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="796">
+    <tspan x="660" y="796">submit</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000" x1="600" y1="780" x2="484.662" y2="568.547"/>
+    <polygon style="fill: #000000" points="481.071,561.963 490.249,568.348 484.662,568.547 481.47,573.136 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="481.071,561.963 490.249,568.348 484.662,568.547 481.47,573.136 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="720" y1="840" x2="489.702" y2="859.191"/>
+    <polygon style="fill: #000000" points="482.228,859.814 491.779,854.001 489.702,859.191 492.609,863.967 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.228,859.814 491.779,854.001 489.702,859.191 492.609,863.967 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="531" y="839">
+    <tspan x="531" y="839">rebase</tspan>
+    <tspan x="531" y="855"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="493" y="698.5">
+    <tspan x="493" y="698.5">amend</tspan>
+    <tspan x="493" y="714.5">if rejected</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="501" y="687.5">
+    <tspan x="501" y="687.5"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="681.5">
+    <tspan x="520" y="681.5"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="520">
+    <tspan x="540" y="520"></tspan>
+  </text>
+</svg>

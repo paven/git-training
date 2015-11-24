@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1548px" height="1414px" viewBox="0 0 1548 1414" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Git commands</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Git-commands" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-1" stroke="#FFFFFF" stroke-width="3" fill="#503574" sketch:type="MSShapeGroup" x="80" y="82" width="274" height="1261" rx="10"></rect>
+            <rect id="Rectangle-1" stroke="#FFFFFF" stroke-width="3" fill="#503574" sketch:type="MSShapeGroup" x="473" y="82" width="543" height="1261" rx="10"></rect>
+            <rect id="Rectangle-1" stroke="#FFFFFF" stroke-width="3" fill="#CFC2E1" sketch:type="MSShapeGroup" x="1012" y="82" width="456" height="1261" rx="10"></rect>
+            <rect id="Rectangle-1" stroke="#FFFFFF" stroke-width="3" fill="#503574" sketch:type="MSShapeGroup" x="473" y="82" width="274" height="1123" rx="21"></rect>
+            <path d="M930,469.046512 L930,465 L656,465 L656,552 L930,552 L930,547.953488 L969,508.5 L930,469.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" stroke-dasharray="15,15" fill="#D0C2E1" sketch:type="MSShapeGroup" transform="translate(812.500000, 508.500000) scale(1, -1) translate(-812.500000, -508.500000) "></path>
+            <path d="M930,753.046512 L930,749 L656,749 L656,836 L930,836 L930,831.953488 L969,792.5 L930,753.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" stroke-dasharray="15,15" fill="#D0C2E1" sketch:type="MSShapeGroup" transform="translate(812.500000, 792.500000) scale(1, -1) translate(-812.500000, -792.500000) "></path>
+            <rect id="Rectangle-1" stroke="#FFFFFF" stroke-width="2" fill="#B9A9D0" sketch:type="MSShapeGroup" x="1013" y="1008" width="274" height="335" rx="10"></rect>
+            <path d="M930,887.046512 L930,883 L656,883 L656,970 L930,970 L930,965.953488 L969,926.5 L930,887.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" stroke-dasharray="15,15" fill="#D0C2E1" sketch:type="MSShapeGroup" transform="translate(812.500000, 926.500000) scale(1, -1) translate(-812.500000, -926.500000) "></path>
+            <path d="M570,620.046512 L570,616 L217,616 L217,703 L570,703 L570,698.953488 L609,659.5 L570,620.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M1244,218.046512 L1244,214 L217,214 L217,301 L1244,301 L1244,296.953488 L1283,257.5 L1244,218.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M1244,469.046512 L1244,465 L876,465 L876,552 L1244,552 L1244,547.953488 L1283,508.5 L1244,469.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M913,618.046512 L913,614 L651,614 L651,701 L913,701 L913,696.953488 L952,657.5 L913,618.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M1244,753.046512 L1244,749 L876,749 L876,836 L1244,836 L1244,831.953488 L1283,792.5 L1244,753.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M764.261407,1087 L217,1087 L217,1174 L764.261407,1174 L764.261407,1179.54087 L807.261407,1130.5 L764.261407,1081.45913 L764.261407,1087 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(513.500000, 1130.500000) scale(-1, 1) translate(-513.500000, -1130.500000) "></path>
+            <path d="M1244,887.046512 L1244,883 L876,883 L876,970 L1244,970 L1244,965.953488 L1283,926.5 L1244,887.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M1058,1090.04651 L1058,1086 L876,1086 L876,1173 L1058,1173 L1058,1168.95349 L1097,1129.5 L1058,1090.04651 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(986.500000, 1129.500000) scale(-1, 1) translate(-986.500000, -1129.500000) "></path>
+            <path d="M1366,1090.04651 L1366,1086 L1198,1086 L1198,1173 L1366,1173 L1366,1168.95349 L1405,1129.5 L1366,1090.04651 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(1301.500000, 1129.500000) scale(-1, 1) translate(-1301.500000, -1129.500000) "></path>
+            <path d="M1365,1207.04651 L1365,1203 L876,1203 L876,1290 L1365,1290 L1365,1285.95349 L1404,1246.5 L1365,1207.04651 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(1140.000000, 1246.500000) scale(-1, 1) translate(-1140.000000, -1246.500000) "></path>
+            <path d="M529,753.046512 L529,749 L258,749 L258,836 L529,836 L529,831.953488 L568,792.5 L529,753.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" stroke-dasharray="15,15" fill="#CFC2E1" sketch:type="MSShapeGroup" transform="translate(413.000000, 792.500000) scale(-1, 1) translate(-413.000000, -792.500000) "></path>
+            <path d="M790,349.046512 L790,345 L568,345 L568,432 L790,432 L790,427.953488 L829,388.5 L790,349.046512 Z" id="Rectangle-6" stroke="#000000" stroke-width="2" stroke-dasharray="15,15" fill="#D0C2E1" sketch:type="MSShapeGroup" transform="translate(698.500000, 388.500000) scale(-1, 1) translate(-698.500000, -388.500000) "></path>
+            <text id="Stage" sketch:type="MSTextLayer" font-family="Arial" font-size="44" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="1093" y="1083">Stage</tspan>
+            </text>
+            <text id="Remote" sketch:type="MSTextLayer" font-family="Arial" font-size="44" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#FFFFFF">
+                <tspan x="139" y="166">Remote</tspan>
+            </text>
+            <text id="Clone" sketch:type="MSTextLayer" font-family="Arial" font-size="44" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#FFFFFF">
+                <tspan x="553" y="166">Clone</tspan>
+            </text>
+            <text id="Branches" sketch:type="MSTextLayer" font-family="Arial" font-size="44" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#FFFFFF">
+                <tspan x="781" y="166">Branches</tspan>
+            </text>
+            <text id="Working-files" sketch:type="MSTextLayer" font-family="Arial" font-size="44" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="1114" y="166">Working files</tspan>
+            </text>
+            <text id="pull" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="805" y="292">pull</tspan>
+            </text>
+            <text id="checkout" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="984" y="541">checkout</tspan>
+            </text>
+            <text id="--track" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="648" y="424">--track</tspan>
+            </text>
+            <text id="reset" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="742" y="690">reset</tspan>
+            </text>
+            <text id="fetch" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="364" y="690">fetch</tspan>
+            </text>
+            <text id="remote" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="336" y="827">remote</tspan>
+            </text>
+            <text id="rebase" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="1038" y="827">rebase</tspan>
+            </text>
+            <text id="merge" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="1047" y="961">merge</tspan>
+            </text>
+            <text id="add" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="1284" y="1161">add</tspan>
+            </text>
+            <text id="commit--a" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="1085" y="1279">commit -a</tspan>
+            </text>
+            <text id="commit" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="942" y="1159">commit</tspan>
+            </text>
+            <text id="push" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="normal" sketch:alignment="right" line-spacing="24" fill="#000000">
+                <tspan x="434" y="1161">push</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
