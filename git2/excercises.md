@@ -14,12 +14,12 @@ Read trough the exercise first. There is an option at the end.
 
 ### Setup
 
-Create a new folder and move in to it in you terminal.
+Create a new folder and move into it in you terminal.
 ```bash
 mkdir git2days
 cd git2days
 ```
-Initiate the a new git repository in the folder
+Initiate a new git repository in the folder
 ```bash
 git init
 ```
@@ -63,7 +63,7 @@ git log
 ```
 
 ### Commit 
-comit the file
+Commit the file
 ```bash
 git commit -m "file created"
 ```
@@ -77,14 +77,14 @@ git log
 
 
 ### Deep stuff - meta git
-This is an extra exercises if you have extra time.
-It might be a litle to hard... try not to be bother with it.
-__If the standard exercise seams to easy start here.__
+This is an extra exercise if you have time.
+It might be a little hard, but don't let that stop you from trying.  
+__If the standard exercise seams too easy start here.__
 
-Do the exercises 1. With the following modification
+Do the exercise 1 with the following modification
 #### Setup
-after part exercises 1 - setup.
-move in to the .git folder
+after  the setup part of exercise 1, also:
+move into the .git folder
 ```bash
 cd .git
 ```
@@ -92,7 +92,7 @@ init a git repo inside
 ```bash
 git init
 ```
-add everythng in the .git folder to git.
+add everything in the .git folder to git.
 ```bash
 git add .
 git commit -m "new repository"
@@ -104,7 +104,7 @@ move out of the .git folder
 cd ..
 ```
 #### check .git
-after each part(setup/working directory...)
+after each part (eg. setup/working directory...)
 ```bash
 cd .git
 git diff
@@ -141,15 +141,15 @@ git add file2.txt
 git commit -m "another commit!"
 ```
 
-make a annotated tag on your new commit
+make an annotated tag on your new commit
 ```bash
 git tag v0.2 -m "another tag!" 
 ```
 
 ### deep stuff
-This is an extra exercises if you have extra time.
-It might be a litle to hard... try not to be bother with it.
-__If the standard exercise seams to easy start here.__
+This is an extra exercise if you have time.
+It might be a little hard, but don't let that stop you from trying.
+__If the standard exercise seems too easy start here.__
 
 #### meta git
 If you did not do meta git in exercise 1 you have to start with the setup step from that.
@@ -158,7 +158,7 @@ then do excersise 2 doing "check .git" after each part.
 
 #### Signed tag
 This is an extra extra exercises if you have extra time.
-It might be a litle to hard... try not to be bother with it.
+It might be a little hard, but don't let that stop you from trying.
 
 if the gpg commands fail.. install gpg
 https://www.gnupg.org/download/
@@ -168,13 +168,13 @@ check if you have key
 gpg --list-keys
 ```
 
-if you didn't have a key you would like to use create a new one.
+if you didn't have a key, create a new one.
 
 ```bash
 gpg --gen-key
 ```
 
-configure git to use you key
+configure git to use your key
 ```bash
 git config --global user.signingkey 0A46826A
 ```
@@ -191,12 +191,12 @@ https://git-scm.com/book/uz/v2/Git-Tools-Signing-Your-Work
 ----
 ## Exercise 3
 
-Form a group with 3-5 persons.
+Form a group with 3-5 people.
 
-Discus and make a list of what workflows and what branches that are 
+Discuss and make a list of what workflows and what branches that are 
 
-* needed in your team(s)
-* bad for your team(s)
+* needed in your daily work
+* bad for your daily work
 
 How does that compare to how you work today?
 
@@ -206,7 +206,7 @@ How does that compare to how you work today?
 Read trough the exercise first. There is an option at the end.
 
 ### create branch
-Create a new branch from you exsisting one
+Create a new branch from your existing one
 
 ```bash
 git branch ex4
@@ -220,7 +220,7 @@ touch ex4master.txt
 git commit -m "another commit!" ex4master.txt
 ```
 
-look at you log
+look at your log
 ```bash
 git log --oneline -graph
 ```
@@ -237,7 +237,7 @@ touch ex4.txt
 git commit -m "another commit!" ex4.txt
 ```
 
-look at you log
+look at your log
 ```bash
 git log --oneline -graph
 ```
@@ -260,13 +260,13 @@ git rebase ex4 master
 ```
 
 ### deep stuf - meta git
-This is an extra exercises if you have extra time.
-It might be a litle to hard... try not to be bother with it.
+This is an extra exercise if you have extra time.
+It might be a little hard, but don't let that stop you from trying.
 __If the standard exercise seams to easy start here.__
 
-If you did not do meta git in exercise 1 you have to start with the setup step from that.
+If you did not do meta git in exercise 1 you have to start with the setup step from that one.
 
-then do excersise 4 doing "check .git" after each part.
+Then do excerise 4, doing "check .git" after each part.
 
 ----
 ## Exercise 5
@@ -297,7 +297,7 @@ merge
 ```bash
 git merge ex5 --ff-only
 ```
-look at you log
+look at your log
 ```bash
 git log --oneline -graph
 ```
@@ -362,17 +362,17 @@ This work flow lets you work more directly with the remote
 
 ### Deepstuff - multiple remotes
 
-ask a colleage to work with
+Join up in pairs for this exercise.
  
-one of you gives acces to their repo to the other one.
+Participant A gives access to their remote to Perticipant B.
 https://help.github.com/articles/adding-collaborators-to-a-personal-repository/
 
+Adds A's remote to B's local repository.
 ```bash
 git add coleage git clone https://github.com/<colleage>/git2-exercise
 ```
-1. write a commit and post it to their repo.
-2. rebase your collages rebaseMeCollege on to your master
-3. what happens if you rebase and you both made changes?
+1. write a commit and post it to A's remote
+2. rebase A's rebaseMeCollege on to B's master
 
 ## Excercise 7
 
@@ -383,7 +383,7 @@ Open your personal
 what does it contain?
 compare with another participant
 
-open the repos local config
+open the local repo's config
 .git/config
 ```bash
 git config -e
@@ -392,10 +392,10 @@ what does it contain?
 
 ### change
 
-In the repos config (so that we don't change global preference)
+In the repo's config (so that we don't change global preference)
 .git/config
 
-change editor
+change editor (replace geany with your preference)
 ```bash
 git config core.editor geany
 ```
