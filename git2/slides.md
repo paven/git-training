@@ -1,16 +1,6 @@
-class: center
+background-image: url(../res/partners/neueda/slideCover.png)
 
-# Git training - 2 days  
-### Basic and then some advanced!
-##Patrik Gustafsson
-Purple Scout AB
-
-http://www.purplescout.se/project/patrik-gustafsson/
-
----
-
-background-image: url(../res/ps-slide.png)
-
+.fotnote[&copy; 2015 - Patrik Gustafsson, Purple Scout AB]
 ---
 
 # Why are you here?
@@ -36,6 +26,10 @@ Patrik Gustafsson:
 * Senior Software Shaman
 * Tool master
 * Public speaker
+
+Works as 
+* Developer
+* Git trainer
 
 University studies:
 * Master of Software Development and Education.
@@ -1069,8 +1063,7 @@ _Git Commands Git via GUI (GIT Extensions or similar) (Mandatory)_
 ## more from the teacher
 * https://github.com/paven/.config/blob/master/.gitconfig 
 * https://github.com/paven/birGit
-* patrik.gustafsson@purplescout.se
-* http://www.purplescout.se/project/patrik-gustafsson/
+* https://www.linkedin.com/in/paven
 ---
 # Appendix:
 
