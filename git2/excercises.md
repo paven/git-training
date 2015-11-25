@@ -189,6 +189,7 @@ Read more:
 https://git-scm.com/book/uz/v2/Git-Tools-Signing-Your-Work
 
 ----
+
 ## Exercise 3
 
 Form a group with 3-5 people.
