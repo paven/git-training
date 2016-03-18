@@ -312,10 +312,7 @@ https://github.com/join
 https://github.com/paven/git2-exercise
 
 
-
-then [clone](https://help.github.com/articles/cloning-a-repository/) your fork
-```bash
-git clone https://github.com/<you>/git2-exercise
+then [clone](https://help.github.com/articles/cloning-a-repository/) your fork: https://github.com/<you>/git2-exercise
 ```
 make sure you are at the master branch
 ```bash
@@ -340,6 +337,7 @@ git checkout rebaseMe
 git rebase master
 git checkout master
 git merge --ff-only
+git log --oneline --graph
 ```
 
 push
@@ -352,13 +350,41 @@ git push
 
 Working with detached head will speed stuff up and leave less trails
 ```bash
-git checkout origin/rebaseMe
+git checkout origin/rebaseMeDetached
 git rebase origin/master
+git log --oneline --graph
 git push origin HEAD:master
 ```
 
 Do a commit and then redo the rebase and the push
 This work flow lets you work more directly with the remote
+
+### with conflict
+```bash
+git checkout origin/rebaseMeConflict
+git rebase origin/master
+git log --oneline --graph
+```
+resolve the conflicts and continue:
+```bash
+git push origin HEAD:master
+```
+
+You could also try this with merge
+
+```bash
+git merge origin/mergeMeConflict
+```
+resolve the conflicts and continue:
+```bash
+git log --oneline --graph
+```
+
+push
+
+```bash
+git push
+```
 
 
 ### Deepstuff - multiple remotes
@@ -375,7 +401,32 @@ git add coleage git clone https://github.com/<colleage>/git2-exercise
 1. write a commit and post it to A's remote
 2. rebase A's rebaseMeCollege on to B's master
 
-## Excercise 7
+## Exercise 7
+
+### Submodule
+
+add an existing repo/branch as a submodule
+```bash
+git submodule add -b submoduleBranch https://github.com/paven/git2-exercise.git theModule
+```
+meta information in repo
+```bash
+cat .gitmodules
+ls .git/modules/
+```
+init
+```bash
+git submodule init
+```
+
+Then commit the added submodule 
+```bash
+git commit -m "add submodule"
+```
+
+---
+
+## Exercise 8
 
 ### look
 Open your personal
@@ -396,11 +447,15 @@ what does it contain?
 In the repo's config (so that we don't change global preference)
 .git/config
 
-change editor (replace geany with your preference)
+change editor (replace nano with your preference)
 ```bash
-git config core.editor geany
+git config core.editor nano
 ```
 
+You can try your editor config out by doing a commit without a predifined commit message
+```bash
+git config core.editor nano
+```
 
 
 

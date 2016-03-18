@@ -62,6 +62,20 @@ often: Often
 often: ~~Often~~
 
 ---
+## Distributed
+[![1984 c-d-d](res/cc-by-sa/1984/Centralised-decentralised-distributed.png "wikimedia-1984 cc-by-sa"")](https://en.wikipedia.org/wiki/File:Centralised-decentralised-distributed.png)
+---
+
+## Fast/ Commit Centerd
+[![git](res/cc-by-sa/xceptance.com/fileCommits.svg "xceptance git sliedes commit")](https://blog.xceptance.com/2013/10/01/git-the-incomplete-introduction-a-tutorial/#more-1314)
+
+---
+
+### Fast Commit Centerd
+[![git](res/cc-by-sa/xceptance.com/fileCheckouts.svg "xceptance git sliedes checkout")](https://blog.xceptance.com/2013/10/01/git-the-incomplete-introduction-a-tutorial/#more-1314)
+
+---
+
 name:masterAndOrigin
 title:Master and origin
 # {{title}}
@@ -124,7 +138,6 @@ _Interactive Staging (Mandatory)_
 git commit -m "commit message"
 ```
 * creates new trees (ie stores the directory in .git)
-* update branch/head(in .git)
 * creates new commit(ie stores the commit in .git)
 * updates HEAD, branch
 * removes from index
@@ -320,7 +333,7 @@ git fetch
 # Workflows
 * Forking Workflow
 * Centralized Workflow
-	* Rebase Workflow
+* Rebase Workflow
 * Gerrit Workflow
 * When to branch
 * Git flow (or not)
@@ -416,7 +429,7 @@ __-__ Is there an other way to find that commit?
 1. everything gets a branch  
 1. has a cool plugin
 
-.fotnote[[git flow](https://github.com/nvie/gitflow)]
+.fotnote[https://github.com/nvie/gitflow]
 
 ---
 
@@ -584,6 +597,9 @@ template: gitCommands
 
 ---
 
+## patrik.gustafsson@purplescout.se
+
+---
 # Merge
 
 [![Atlassian Rebase](res/cc-by/atlassian/merge.png)](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase)
@@ -613,9 +629,9 @@ git merge --ff-only <commitish>
 
 # Excercise 5
 
-.imageMax[
+
 [![](res/publicdomain/pixbay/merging-39400.svg)](https://pixabay.com/sv/sammanslagning-trafik-tecken-v%C3%A4g-39400/)
-]
+
 ---
 
 # Remotes 
@@ -652,7 +668,7 @@ git branch --no-merged=origin/master
 --
 push to a remote branch
 ```bash
-git push HEAD:branchToUpdate
+git push origin HEAD:branchToUpdate
 ```
 
 delete a remote branch
@@ -718,9 +734,64 @@ git branch -d issue
 ```
 ---
 
+## Rebase conflict
+   
+    First, rewinding head to replay your work on top of it...
+    Applying: Conflicting commit
+    Using index info to reconstruct a base tree...
+    M	firstFile.txt
+    Falling back to patching base and 3-way merge...
+    Auto-merging firstFile.txt
+    CONFLICT (content): Merge conflict in firstFile.txt
+    Recorded preimage for 'firstFile.txt'
+    Failed to merge in the changes.
+    Patch failed at 0001 Conflicting commit
+    The copy of the patch that failed is found in:
+       /home/pvn/git/git2-exercise/.git/rebase-apply/patch
+    
+    When you have resolved this problem, run "git rebase --continue".
+    If you prefer to skip this patch, run "git rebase --skip" instead.
+    To check out the original branch and stop rebasing, run "git rebase --abort".
+    
+---
+
+## Merge Conflict
+
+    Auto-merging firstFolder/secondtFile.txt
+    CONFLICT (content): Merge conflict in firstFolder/secondtFile.txt
+    Recorded preimage for 'firstFolder/secondtFile.txt'
+    Automatic merge failed; fix conflicts and then commit the result.
+
+not as informativ/ less cluttered than the rebase messege
+```bash
+merge --abort
+```
+---
+
+## Reviewing the conflict
+```bash
+git status
+cat conflictingFile.txt
+```
+---
+## Merge/Rebase conflicts
+
+    some code that is in both
+    <<<<<<< HEAD
+    this is from head
+    =======
+    this is from the commit adding to it
+    >>>>>>> conflictingCommit
+    more code that is in both
+
+---
 # Excercise 6 
 
 [!["source controle - The Code Zone."](http://angriestprogrammer.com/comics/source_control.png)](http://angriestprogrammer.com/comic/source_control)
+https://github.com/paven/git2-exercise
+
+???
+tell them to look att the README instead of the cheat
 
 ---
 # Nested repos - overview
@@ -744,7 +815,7 @@ config part of main repo | yes | no
 
 add an existing repo/branch as a submodule
 ```bash
-git submodule add https://git..xercise -b submoduleBranch module
+git submodule add -b submoduleBranch https://git..xercise  module
 ```
 meta information in repo
 ```bash
@@ -793,6 +864,10 @@ but useful for:
 
 ???
 _How to divide logically application and the repository (Nice to have)_
+
+---
+
+## Exercise 7 
 
 ---
 # Undoing Things
@@ -1028,7 +1103,7 @@ shall be executable by the operating system
 <!-- _Git Hooks (Nice to have)_ -->
 ---
 
-# Exercise 7
+# Exercise 8
 
 [![@iamdeveloper vim](res/fairuse/iamadeveloper/vim.png)](https://twitter.com/iamdevloper/status/435555976687923200)
 
@@ -1042,6 +1117,23 @@ shall be executable by the operating system
 _Code reviews (Gerrit) (Mandatory)_
 _Creating structure for aggregating and reviewing changes from developers (Mandatory)_
 _Testing and Staging environment (Nice to have)_
+
+---
+# Gerrit push
+```bash
+git push HEAD:refs/publish/master
+git push HEAD:refs/for/master
+
+```
+---
+# Gerrit Example
+
+https://review.gerrithub.io/#/dashboard/self
+
+---
+# git review
+
+https://www.mediawiki.org/wiki/Gerrit/git-review
 
 ---
 # GUI
@@ -1064,6 +1156,8 @@ _Git Commands Git via GUI (GIT Extensions or similar) (Mandatory)_
 * https://github.com/paven/.config/blob/master/.gitconfig 
 * https://github.com/paven/birGit
 * https://www.linkedin.com/in/paven
+* https://plus.google.com/+PatrikGustafsson
+* https://twitter.com/paven
 ---
 # Appendix:
 
