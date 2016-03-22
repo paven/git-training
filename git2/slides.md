@@ -782,7 +782,7 @@ cat conflictingFile.txt
     =======
     this is from the commit adding to it
     >>>>>>> conflictingCommit
-    more code that is in both
+	more code that is in both
 
 ---
 # Excercise 6 

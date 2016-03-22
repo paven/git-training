@@ -312,7 +312,7 @@ https://github.com/join
 https://github.com/paven/git2-exercise
 
 
-then [clone](https://help.github.com/articles/cloning-a-repository/) your fork: https://github.com/<you>/git2-exercise
+then [clone](https://help.github.com/articles/cloning-a-repository/) your for https://github.com/<you>/git2-exercise
 ```
 make sure you are at the master branch
 ```bash
